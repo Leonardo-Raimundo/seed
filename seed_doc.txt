@@ -1,0 +1,74 @@
+Seed_V1 - gerenciamento financeiro
+
+---------------------------------------------------
+
+Cadastro de usuário - ok
+
+---------------------------------------------------
+
+Login de usuário - ok
+
+---------------------------------------------------
+
+Logout - ok
+
+---------------------------------------------------
+
+Cadastro de movimentações - ok (mas 
+precisa relacionar com categorias, 
+por hora usa categorias pré estabelecidas em html)
+
+---------------------------------------------------
+
+Apresentar movimentações - ok (precisa melhorar o
+CSS)
+
+---------------------------------------------------
+
+CRUD categorias - a fazer
+
+---------------------------------------------------
+
+CRUD metas financeiras - a fazer
+
+---------------------------------------------------
+
+Configurações de usuário - a fazer
+
+---------------------------------------------------
+
+* Fiz algumas categorias pré definidas
+para cadastro de movimentações, mas 
+acho que precisa fazer um php com sql
+pra que se possa criar novas categorias
+e disponibilizá-las no cadastro de movi.
+
+---------------------------------------------------
+
+* por enquanto vou tirar a parte de 
+movimentações fixas e parceladas e 
+deixar pra caso sobre tempo, pq 
+acredito que seja mais complicadinho
+fazer.
+
+---------------------------------------------------
+
+* por enquanto o form de movimentações
+armazena em VARCHAR a categoria de mov 
+escolhida. Precisa /provavelmente/ armazenar
+o id de categoria como chave estrangeira 
+das entidades da tabela categorias.
+
+---------------------------------------------------
+
+* Formatar a data na apresentação de movimentações
+
+---------------------------------------------------
+
+Extra Bonus...if we can LOL
+
+Puxar o nome de usuário do banco de
+dados e apresentar no "Olá, 'nome'!"
+da barra lateral.
+
+---------------------------------------------------

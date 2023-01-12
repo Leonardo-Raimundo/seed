@@ -1,0 +1,20 @@
+-------------variáveis PHP-------------
+
+$nomeDaTabela = tabela usuarios
+$nomeDaTabela2 = tabela movimentacoes
+$nomeDataTabela3 = tabela categoria
+
+---------------Arquivos----------------
+
+dados-conexao.inc.php = dados conexão
+da tabela usuarios. Mantive assim pq 
+já está em vários arquivos, vai ser
+confusão mudar, mas podemos fazer depois.
+
+conexao-movimentacoes.inc.php = dados 
+conexão com tabela movimentacoes. 
+Recomendo seguir esse padrão de nomenclatura
+para as próximas tabelas. Sugestões são bem vindas.
+
+
+

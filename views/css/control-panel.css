@@ -1,0 +1,357 @@
+@import url(//db.onlinewebfonts.com/c/2167e76f00e569cc11b3665679996380?family=Futura+Light);
+@import url(//db.onlinewebfonts.com/c/e15e04d5b8ea210a0a98596732a32871?family=Futura-Normal);
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria sans', sans-serif;
+}
+
+header {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.div-logo-header {
+  margin-left: 85%;
+}
+
+.logo-icon {
+  height: 40px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+#profile-name {
+  color: #1D7837;
+  font-family: 'Inria Sans', sans-serif;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  margin-left: 4%;
+}
+
+.sidebar {
+  background-color: rgb(228, 228, 228);
+  color: black;
+  border: 1 solid black;
+  display: inline-block;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+}
+
+.sidebar-buttons {
+  margin: 5%;
+  width: 90%;
+  height: 6vh;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 18px;
+}
+
+#btn-financial-goals {
+  margin-bottom: 100%;
+}
+
+#btn-user-config {
+  margin-top: 20vh;
+}
+
+.sidebar-buttons:hover, .sidebar-buttons:active {
+  background-color: #1D7837;
+  color: white;
+}
+
+
+.user-view-filters {
+  top: 10%;
+  left: 20%;
+  position: fixed;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+
+}
+
+#months-filter {
+  font-size: 20px;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: bold;
+}
+
+.lbl-filter {
+  /* margin-left: 10%; */
+  font-family:'Inria Sans', sans-serif ;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: -8%;
+}
+
+#txt-field-filter {
+  min-height: 12%;
+}
+
+#glass-filter-icon {
+  width: 20%;
+  height:20%;
+}
+
+.btn-filter {
+  margin-left: -15%;
+  width: 10%;
+  height: 10%;
+  background: none;
+  border: none;
+}
+
+table{
+  padding: 2%;
+  position: fixed;
+  top: 22vh;
+  left: 25%;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  width: 60%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+td{
+  font-size: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.div-add-mov-cate {
+  position: fixed;
+  top: 18vh;
+  left: 25%;  
+}
+
+#config-icon {
+  width: 20%;
+  height: 20%;
+}
+
+#btn-add-movimenta {
+  font-size: 16px;
+  margin-right: 20px;
+  padding: 0.4vw;
+  color: white;
+  text-align: center;
+  min-width: 8vw;
+  min-height: 4vh;
+  background-color: #1D7837;
+  border: none;
+  border-radius: 5px;
+}
+
+#btn-add-movimenta:hover {
+  background-color: #269746;
+}
+
+#btn-manage-category {
+  font-size: 16px;
+  background: none;
+  border-radius: 5px;
+  max-width: 8vw;
+  min-height: 4vh;
+}
+
+#btn-manage-category:hover {
+  border: none;
+  background-color: #269746;
+  color: white;
+}
+
+.btn-fechar-form {
+  margin-top: 1%;
+  margin-right: 1%;
+  border: none;
+  float: right;
+  background-color: white;
+}
+
+#ico-fechar {
+  width: 1.4vw;
+}
+
+.form-container {
+    min-height: 450px;
+    min-width: 200px;
+    padding: 10px;
+}
+
+fieldset{
+  height: 70vh;
+  width: 45vw;
+  margin: 15vh 30vw;
+  background-color: white;
+  border-radius: 10px;
+  border-color: white;
+  padding-left: 50px;
+  padding-bottom: 2%;
+}
+
+.h1-forms {
+  font-size: 60px;
+  color: #1D7837;
+  font-family: 'Istok web';
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+  margin-left: 6vh;
+}
+
+.btn-cadastrar, #btn-login {
+  font-size: 16px;
+  font-family: 'Istok web';
+  margin-left: 16vw;
+  padding: 0.3vw;
+  color: white;
+  text-align: center;
+  min-width: 7vw;
+  min-height: 4vh;
+  background-color: #1D7837;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2vh;
+  margin-bottom: 2.5vh;
+}
+
+.btn-excluir {
+  font-size: 16px;
+  font-family: 'Istok web';
+  margin-left: 16vw;
+  padding: 0.3vw;
+  color: #781D1D;
+  text-align: center;
+  min-width: 7vw;
+  min-height: 4vh;
+  background-color: #ffffff;
+  border-color: #781D1D;
+  border-radius: 5px;
+  margin-top: 2vh;
+  margin-bottom: 2.5vh;  
+}
+
+.btn-excluir:hover {
+  border-color: #8a2b2b;
+  color: #8a2b2b;
+}
+
+.btn-cadastrar:hover {
+  background-color: #269746;
+}
+
+.label-alinha {
+  margin-left: -6vh;
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 2vh;
+  text-align: right;
+  font-weight: bold;
+}
+
+.divider1-div {
+  width: 80vh;
+  height: 1px;
+  background: black;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+input {
+  width: 15vw;
+  height: 3vh;
+  border-radius: 5px;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+  border-color: #D2D2D2;
+}
+
+#fixa, #nao-fixa, #parcelada, #nao-parcelada {
+  height: 1.4vh;
+}
+
+#lbl-excluir {
+  font-size: 1.5rem;
+  color: #781D1D;
+  font-weight: bold;
+}
+
+.lbl-radio {
+  text-align: left;
+  margin-left: -6vw;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 12px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin-left: 30vw;
+  margin-top: 20vh;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #F9F9F9;
+  min-width: 90%;
+  height: 200px;
+  margin-bottom: 5vh;
+}
+
+.card h2 {
+  font-family: 'Poppings', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1.5vh;
+}
+
+.card p {
+  font-family: 'DM sans';
+}
+
+.div-h1-limites {
+  font-size: 30px;
+  color: #1D7837;
+  font-family: 'Istok web';
+  display:flex;
+  position: relative;
+  top: 10vh;
+  left: 20.4vw;
+  max-width: 40vw;
+}
